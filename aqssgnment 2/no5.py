@@ -1,0 +1,11 @@
+#wap to create a function tha t takes list as a argument and returns the even values of list.
+def even_len(n):
+    s=[]
+    for i in n:
+        if i%2==0:
+            s.append(i)
+        return s
+x=input("enter the list elments")
+n=[int(i)for i in x.split(",")]
+s=even_len(n)
+print(s)
